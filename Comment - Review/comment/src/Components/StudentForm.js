@@ -21,7 +21,7 @@ const StudentForm = () => {
     }
    
   return (
-    <div >
+    <div style={{backgroundColor:"blanchedalmond",marginTop:"16%"}}>
       <form onSubmit={(e)=> handlesubmit(e)}>
       <h2>Student Form</h2>
       <input type='text' onChange={(e)=>handlechange(e)} value={name} name="name" placeholder='Enter Your Full Name'/> <br/>
@@ -35,9 +35,9 @@ const StudentForm = () => {
         <option> Senior</option>
       </select><br></br>
       Male <input type='radio' onChange={(e)=>handlechange(e)} value={"Male"} name="gender" /> 
-      Female <input type='radio' onChange={(e)=>handlechange(e)} value={"Feamale"} name='gender'/> 
+      Female <input type='radio' onChange={(e)=>handlechange(e)} value={"Female"} name='gender'/> 
       Other <input type='radio'onChange={(e)=>handlechange(e)} value={"Other"} name='gender'/><br/>
-      <input type='submit'/>
+      <button>Submit</button>
       </form>
     </div>
    
