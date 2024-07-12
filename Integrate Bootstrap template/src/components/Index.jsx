@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Index = () => {
   return (
-     <div className="section d-flex" style={{marginLeft:"20%"}}>
+     <div className="section d-flex" style={{marginLeft:"13%"}}>
             <div className="container text-left">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
@@ -24,7 +24,7 @@ const Index = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img src="https://img.freepik.com/free-photo/elegant-man-with-arms-crossed_1149-1347.jpg" alt="John Deo" height={500} />
+                        <img src="https://img.freepik.com/free-photo/handsome-young-businessman-portrait_144627-21887.jpg?t=st=1720771179~exp=1720774779~hmac=82cdf9320b969f49e8f0f10f7451b67750586ac93da94daaff32f5a7576d0f48&w=360" alt="John Deo" height={500} />
                     </div>
                 </div>
             </div>
